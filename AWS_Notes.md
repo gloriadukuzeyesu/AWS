@@ -222,3 +222,111 @@ part of AWS documentation
 ### Seven Advantages to cloud 
 
 <img src="AWS/sevenBenefitsOfCloud.png" alt="Screen Shot 2022-12-23 at 5.18.32 PM" style="zoom:33%;" />
+
+
+
+## **AWS Global infrastructure** 
+
+ 
+
+![Screen Shot 2022-12-23 at 5.54.31 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%205.54.31%20PM.png)
+
+![Screen Shot 2022-12-23 at 5.56.54 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%205.56.54%20PM.png)
+
+Us east-1 is the main one in Virginia
+
+Availability Zone(**AZ**) is a pysical loaction made up of one or more data center 
+
+generallly contains 3 availability zones 
+
+
+
+![Screen Shot 2022-12-23 at 6.01.21 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%206.01.21%20PM.png)
+
+**The US-EAST-1 region has 6 AZs( the most availability Zones of any region)**
+
+![Screen Shot 2022-12-23 at 6.03.35 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%206.03.35%20PM.png)
+
+
+
+### **Fault Tolerance**
+
+A fault domain is a section of a network that is vulnerable to damage if a critical device of system fails. **The Purpose of fault domains** is that if a failure occurs it will not cascade outside that domain, limiting the damage possible. 
+
+You can have fault domains nested inside fault domains 
+
+#### **What is a fault level?**
+
+A fault level is a collection of fault domains 
+
+
+
+![Screen Shot 2022-12-23 at 6.13.11 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%206.13.11%20PM.png)
+
+### **AWS Global Network** 
+
+BackBone of AWS 
+
+![Screen Shot 2022-12-23 at 6.14.57 PM](../../Library/Application%20Support/typora-user-images/Screen%20Shot%202022-12-23%20at%206.14.57%20PM.png)
+
+### **Point of Presence (POP)**
+
+
+
+![Screen Shot 2022-12-23 at 6.16.41 PM](AWS_Notes/pointOfpresence.png)
+
+
+
+![Screen Shot 2022-12-23 at 6.20.04 PM](AWS_Notes/POP_2.png)
+
+
+
+## AWS Direct Connect
+
+AWS direct connect It is **a private/dedicated** connection between your data center, office, co-location and AWS. 
+
+Direct Connect has two very fast Network connecion options 
+
+1. Lower Bandwidth 50MBps - 500MBps
+2. Higher Bandwidth 1GBps or 10GBps 
+
+Importance 
+
+* helps reduce network costs and increase bandwidth throughput. (great for high traffic networks)
+* Provides a more consistent network experience than typical internet based connection. (Reliable and secure)
+
+### **Direct connect Location** 
+
+Are trusted partenered data centers that you can establish a dedicated high speed, low latency connection from your on-premise to AWS
+
+### AWS local zones 
+
+Are data centers located very close to a densely populated area to provide single digit miliseconf low latency perfomance. 
+
+The purpose of local zones is the support highly demanding applications sensitive to latencies 
+
+* medica & entertainment 
+
+* Electronic Design Automation 
+
+* Ad -tecg 
+
+* machine learning 
+
+  **Example of local zone is Los Angeles, california the first local zone to be deployed**
+
+  you need to opt in to use local zone
+
+  
+
+
+
+![Screen Shot 2022-12-23 at 6.30.51 PM](AWS_Notes/waveLenghthZones.png)
+
+
+
+### Data Residency 
+
+A physical or geographical location of where an organization or cloud resources reside 
+
+![Screen Shot 2022-12-23 at 6.34.09 PM](AWS_Notes/dataResidency.png)
