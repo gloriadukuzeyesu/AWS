@@ -95,7 +95,7 @@ IaaS: infrastructrure as service: basic buildingn for IT. Don't worry about IT s
 
 
 
-<img src="AWS/Screen%20Shot%202022-12-22%20at%203.02.57%20PM.png" alt="typesOfCloudComputing" style="zoom:40%;" />
+<img src="AWS/Screen%20Shot%202022-12-22%20at%203.02.57%20PM.png" alt="typesOfCloudComputing" style="zoom: 33%;" />
 
 
 
