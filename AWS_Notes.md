@@ -267,17 +267,17 @@ A fault level is a collection of fault domains
 
 BackBone of AWS 
 
-![Screen Shot 2022-12-23 at 6.14.57 PM](../../Library/Application%20Support/typora-user-images/Screen%20Shot%202022-12-23%20at%206.14.57%20PM.png)
+<img src="../../Library/Application%20Support/typora-user-images/Screen%20Shot%202022-12-23%20at%206.14.57%20PM.png" alt="Screen Shot 2022-12-23 at 6.14.57 PM" style="zoom:25%;" />
 
 ### **Point of Presence (POP)**
 
 
 
-![Screen Shot 2022-12-23 at 6.16.41 PM](AWS_Notes/pointOfpresence.png)
+<img src="AWS_Notes/pointOfpresence.png" alt="Screen Shot 2022-12-23 at 6.16.41 PM" style="zoom:25%;" />
 
 
 
-![Screen Shot 2022-12-23 at 6.20.04 PM](AWS_Notes/POP_2.png)
+<img src="AWS_Notes/POP_2.png" alt="Screen Shot 2022-12-23 at 6.20.04 PM" style="zoom:25%;" />
 
 
 
@@ -319,9 +319,7 @@ The purpose of local zones is the support highly demanding applications sensitiv
 
   
 
-
-
-![Screen Shot 2022-12-23 at 6.30.51 PM](AWS_Notes/waveLenghthZones.png)
+<img src="AWS_Notes/waveLenghthZones.png" alt="Screen Shot 2022-12-23 at 6.30.51 PM" style="zoom:33%;" />
 
 
 
@@ -329,4 +327,102 @@ The purpose of local zones is the support highly demanding applications sensitiv
 
 A physical or geographical location of where an organization or cloud resources reside 
 
-![Screen Shot 2022-12-23 at 6.34.09 PM](AWS_Notes/dataResidency.png)
+<img src="AWS_Notes/dataResidency.png" alt="Screen Shot 2022-12-23 at 6.34.09 PM" style="zoom:33%;" />
+
+### Sustainability 
+
+1. Renewable energy : 100 % by 2025
+2. cloud effeciency 
+3. water stewardship : recyled water in data centers 
+
+
+
+### AWS Ground Station
+
+A fully managed service that lets you control satellite communications, process data, and scale your operations without having to worry about building or managing your own ground station infrastructure. 
+
+**Examples:** 
+
+* Weather forcasting
+* Surface imaging 
+* communication
+* Video broadcasts
+
+### AWS Outpots
+
+A fully mamaged service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any datacenters, co location space, or on premises facitily for truly consistent hybrid experience. 
+
+
+
+AWS outposts is rack of servers running AWS infrastructure on your physical location. 
+
+#### what is a server rack? 
+
+A frame designed to hold and organize IT equipment. 
+
+
+
+<img src="AWS_Notes/serverRack.png" alt="Screen Shot 2022-12-30 at 3.04.35 PM" style="zoom:33%;" />
+
+Rack Heights
+
+U stands for rack units or U spaces with equal to 1.75 inches. The industry standard size is 48U (7 foot rack)
+
+full size rack cage is 42U high. 
+
+* equipment is typically 1U, 2U, 3U, or 4U high. Vary in shape. See image below 
+
+
+
+
+
+<img src="AWS_Notes/ServerRackHeight.png" alt="Screen Shot 2022-12-30 at 3.06.59 PM" style="zoom:33%;" />
+
+
+
+AWS Outpost comes in 3 forms factors: 442U, 1U, and 2U
+
+
+
+<img src="AWS_Notes/fullServerRackByAWS.png" alt="Screen Shot 2022-12-30 at 3.08.31 PM" style="zoom:33%;" />
+
+
+
+
+
+Different servers that you can place in your existing racks: 
+
+
+
+<img src="AWS_Notes/ServerHeightByAWS.png" alt="Screen Shot 2022-12-30 at 3.09.08 PM" style="zoom:33%;" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
