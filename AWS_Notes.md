@@ -27,7 +27,7 @@ is company  that :
 
 
 
-![Screen Shot 2022-12-21 at 9.21.32 PM](AWS/Screen%20Shot%202022-12-21%20at%209.21.32%20PM.png)
+<img src="AWS/Screen%20Shot%202022-12-21%20at%209.21.32%20PM.png" alt="Screen Shot 2022-12-21 at 9.21.32 PM" style="zoom: 33%;" />
 
 
 
@@ -117,7 +117,7 @@ Everything build on company data centers. Open stack
 
 Using both onpremise and a cloud service provider 
 
-![Screen Shot 2022-12-22 at 3.09.36 PM](AWS/Screen%20Shot%202022-12-22%20at%203.09.36%20PM.png)
+<img src="AWS/Screen%20Shot%202022-12-22%20at%203.09.36%20PM.png" alt="Screen Shot 2022-12-22 at 3.09.36 PM" style="zoom: 25%;" />
 
 #### Cross Cloud 
 
@@ -137,7 +137,7 @@ hybrid
 
 On Premise 
 
-![Screen Shot 2022-12-22 at 3.15.40 PM](AWS/Screen%20Shot%202022-12-22%20at%203.15.40%20PM.png)
+<img src="AWS/Screen%20Shot%202022-12-22%20at%203.15.40%20PM.png" alt="Screen Shot 2022-12-22 at 3.15.40 PM" style="zoom:25%;" />
 
 
 
@@ -147,7 +147,7 @@ On Premise
 
 
 
-![Screen Shot 2022-12-23 at 4.54.54 PM](AWS/Screen%20Shot%202022-12-23%20at%204.54.54%20PM.png)
+![Screen Shot 2022-12-23 at 4.54.54 PM](AWS/innovativeWaves.png)
 
 ### Burning Platform 
 
@@ -162,9 +162,9 @@ Example:
 
 ### **Digital transformation** 
 
-<img src="AWS/Screen%20Shot%202022-12-23%20at%205.00.57%20PM.png" alt="digitalTransoformationCheckList" style="zoom:33%;" />
+<img src="AWS/awsCheckList.png" alt="digitalTransoformationCheckList" style="zoom: 25%;" />
 
-![Screen Shot 2022-12-23 at 5.02.28 PM](AWS/Screen%20Shot%202022-12-23%20at%205.02.28%20PM.png)
+<img src="AWS/awsCheckList2.png" alt="Screen Shot 2022-12-23 at 5.02.28 PM" style="zoom:25%;" />
 
 
 
@@ -229,7 +229,7 @@ part of AWS documentation
 
  
 
-![Screen Shot 2022-12-23 at 5.54.31 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%205.54.31%20PM.png)
+<img src="AWS_Notes/awsGlobalInfrastructure.png" alt="Screen Shot 2022-12-23 at 5.54.31 PM" style="zoom: 33%;" />
 
 ![Screen Shot 2022-12-23 at 5.56.54 PM](AWS_Notes/Screen%20Shot%202022-12-23%20at%205.56.54%20PM.png)
 
