@@ -364,7 +364,7 @@ A frame designed to hold and organize IT equipment.
 
 <img src="AWS_Notes/serverRack.png" alt="Screen Shot 2022-12-30 at 3.04.35 PM" style="zoom:33%;" />
 
-Rack Heights
+#### Rack Heights
 
 U stands for rack units or U spaces with equal to 1.75 inches. The industry standard size is 48U (7 foot rack)
 
@@ -395,6 +395,87 @@ Different servers that you can place in your existing racks:
 
 
 <img src="AWS_Notes/ServerHeightByAWS.png" alt="Screen Shot 2022-12-30 at 3.09.08 PM" style="zoom:33%;" />
+
+
+
+## Cloud Architecture Terminology
+
+Solution Architect? 
+
+Cloud Architect?  
+
+
+
+<img src="AWS_Notes/solutionCloudArchitect.png" alt="Screen Shot 2022-12-30 at 3.14.33 PM" style="zoom:33%;" />
+
+
+
+<img src="AWS_Notes/costandSecurity.png" alt="Screen Shot 2022-12-30 at 3.15.38 PM" style="zoom: 33%;" />
+
+
+
+### High Availability 
+
+ability for your service to remain available by ensuring there is no single point of failure and/or ensure a certain level of performance. You run your workload acrosss multiple availability zones ensures that if 1 or 2 Availabilit zones becomes unavailable your service / application remains available. Use **ELASTIC LOAD BALANCER**
+
+
+
+### High Scability 
+
+Your ability to increase your capacity based on the increasing demand of traffic, memory and computing power. 
+
+* **Vertical scaling**: Scaling up. Upgrade a biggger server 
+
+* **Horizontal scaling**: Scaling up. Adding servers of same size. 
+
+
+
+### High Elasticity 
+
+Ability to **automatically** increase of decrease your capacity based  the current demand of traffic, memory and computer power. Same as high scability but elasticity is automatic.
+
+* **Horizontal Scaling** 
+  * Scaling out - add more servers of the same size
+  * Scaling in - removing underutilized servers of the same size
+* Vertical scaling is generally hard for traditional architecture so you will usually only see horizonatal scaling described with elasticity. 
+
+### High Fault Tolerance
+
+Ability for your service to ensure there is no single point of failure. Preventing the chances of failure. 
+
+  
+
+<img src="AWS_Notes/highFaultTolerance.png" alt="Screen Shot 2022-12-30 at 3.30.37 PM" style="zoom: 40%;" />
+
+
+
+### High Durability
+
+Your ability to **recover** from a disaster and to prevent the loss of data solutions that recover from a disaster is known as Disaster recovery (DR).  
+
+![Screen Shot 2022-12-30 at 3.33.12 PM](AWS_Notes/hightDurability.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
