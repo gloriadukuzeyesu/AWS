@@ -303,11 +303,244 @@ Phyisical or geographyical location of where an organization or cloud resources 
 
 
 
+## GOV Cloud
+
+**FedRamp** stands for **F**ederal **R**isk and **A**uthorization **M**anagement **P**rogram. A US government wide program that provides a standarized approache to security assessment authorization and continous monitoring for cloud products and services. 
+
+**GovCloud:** A cloud service provider generally offer an isolated region to run FedRam Workloads. 
+
+**AWS GovCloud Regions** allows customers to host sensitvie controlled Unclassified information and other types of regulated workloads. 
 
 
 
+## AWS in china
+
+AWS cloud offering in mainlad china.
+
+It is isolated intentioally from AWS Global to meet regulatory compliance of mainland china. 
+
+AWS china has its own comain at `amazonaws.com`
+
+In order to operate AWS in china, you need to have a Chiness Business License ( ICP licence).
+
+AWS has two regions in Mainland China. 
+
+* Ningxia Region
+* Beijing Region 
 
 
+
+## Sustainability
+
+* Renewable Enerygy. Achieve it by  2025
+* Cloud Effeciency 
+* Water Stewardship ( evaporative technology to cool down the data center)
+
+
+
+## AWS Ground Station
+
+Lets you control satellite communications, process data, and scale your operations without having to worry abput builing onr managing your own ground statin infrastructure. 
+
+
+
+Used in cases like:
+
+* Weather forecasting
+* Surface imaging
+* Communications
+* Video broadcasts
+
+
+
+use the AWS ground station EC2 AMI to launch EC2 instances that will uplink and downlink data during the contact or receive downlinked data in an amazon S3 bucket. 
+
+
+
+## AWS Outposts
+
+Rack of servers running AWS infrastructure on your physical location. 
+
+Server Rack: Is a frame designed to hold and organize IT equipment. 
+
+AWS Ouputs comes in 3 form factors 
+
+* 42U
+* 1U
+* 2U
+
+![Screenshot 2023-09-11 at 1.24.36 PM](AWS_screenShots/AWSPost.png)
+
+
+
+## Cloud Architecture Terminologies 
+
+![Screenshot 2023-09-11 at 1.26.38 PM](AWS_screenShots/cloudArchitectureterminology.png)
+
+
+
+### High availability
+
+Your ability for your service **to remain available** by ensuring there is no single point of failure and ensure/a certain level of perfomence. 
+
+* Elastic Load Balancer: load traffic to one or more datacenter. If a datacenter or server becomes unavailable the load balace will route the traffic to only available datacenters with servers.
+
+### High Scalability
+
+**Ability to increase capacity based on the increase of demand o**f traffic, memory and computing power. 
+
+2 ways to accomplish this
+
+* veritical scalling / scalling up. Upgrading to a bigger server
+* Horizontal scaling : scalling out, adding more servers of the same size. 
+
+### High Elasticity
+
+Ability to automatically increase or decrease your capacity based on the current demand of traffic, memory and computig power. 
+
+* Horizontatl Scalling. 
+
+* Use Auto Scalling Groups (ASG) : this feature will automatically add or remove serves based on scaling rules you define based on metrics. 
+
+  
+
+  ![Screenshot 2023-09-11 at 1.39.47 PM](AWS_screenShots/HighElasticity.png)
+
+### High Fault Tolerance
+
+Ability for your service to ensure there is no sinlge point of failure. Preventing the chance of failure. 
+
+Example: having a copy( or secondary) of your database where all ongoing changes are synced. The secondaty system is not in use until a fail pver occurs and it becomes the primary database.
+
+### High Distaster Recovery 
+
+Ability to recover from a disaster and to prevent the loss of data solutions that recover from a disaster in known as Disaster Recovery (DR)
+
+=> **CloudEndure Disaster Recovery :** Continually repricates your machine into low cost staging area in your target AWS account and preferred Region enabling fast and reliable recovery in case of IT data center failures. 
+
+## Business Continuall Plan (BCP)
+
+​	A BCP is a document that outlines how a business will continue operating during an unplanned disruption in services. 
+
+* **RPO ( Recovery POint Objective) :** The max acceptable amount of data loss after an unplanned disaster**. How much data are you willing to loose.** 
+* **RTO(Revery Rime Objective)** : The maximum amount of downtime your business can tolerate without incurring a significant financial loss. > **How much time are you willing to go down.** 
+
+
+
+## Disaster Recovery Options
+
+![Screenshot 2023-09-11 at 1.51.24 PM](AWS_screenShots/DisasterRecoveryOptions.png)
+
+
+
+## RTO visualized
+
+Recovery Time Objective (RTO)
+
+The maximum acceptable delay between the interruption of service and restoration of service. This objective determines what is considered an acceptable time window when service is unavailable and is defined by the organization. 
+
+![Screenshot 2023-09-11 at 1.54.28 PM](README/RTO.png)
+
+
+
+## RPO Visualized
+
+Recovery Point Objective : The maximum acceptable amount of time since the last data recovery Point. THis objective determines what is considered an acceptable loss of data between the last recovery point and the interruprion of service and is defined by the organization.
+
+
+
+![Screenshot 2023-09-11 at 1.56.56 PM](README/RPO.png)
+
+
+
+## Managment and Development tools. 
+
+
+
+### AWS API
+
+API Application Programming Interface. Applicatin that allows two application or services to tak to each other. 
+
+### AWS Tools for PowerShell
+
+Task automation and configuration management framework. 
+
+* Use Bash 
+
+* or PoweShell
+
+* AWS has all these pre installed. you can type 
+
+  ```
+  bash // to use  bash
+  pwsh // for power shell
+  ```
+
+  
+
+  
+
+### ARNs : Amazon Resources names. 
+
+Uniquely identify AWS resources. 
+
+### AWS CLI (command line interface)
+
+![Screenshot 2023-09-11 at 2.32.47 PM](README/shell.png)
+
+AWS CLI allows users to programmatically interact with the AWS API via entering single or multi line commands into a shell or terminal. 
+
+
+
+The commands are online CLI commands. 
+
+### AWS SDK
+
+SDK is a collection of software development tools in one installable package. 
+
+AWS SDK is offered n various language: 
+
+* Java,
+* Python
+* C/C++
+* Ruby
+
+AWS Cloud Shell: 
+
+Browser based shell. 
+
+contains AWS CLI, python, java, etc..
+
+
+
+### Infrastructure as Code (Iac)
+
+Automate, creating, and updating or destroying
+
+![Screenshot 2023-09-11 at 2.54.52 PM](AWS_screenShots/iac.png)
+
+### Cloud Formation 
+
+![Screenshot 2023-09-11 at 2.55.50 PM](AWS_screenShots/cloudFormation%20.png)
+
+### AWS CDK
+
+AWS CDK allows you to use these language
+
+* typeSript
+
+* Node.Js
+* Python
+* Java
+* ASP.Net
+
+Cloud COnframtion has its won CLI
+
+Notes: 
+
+* VSCODE has AWS toolkit you can use
+
+## Access Keys
 
 
 
