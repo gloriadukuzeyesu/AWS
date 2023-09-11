@@ -31,7 +31,7 @@
 
    ## AWS Evolution. 
 
-   * Simple Queue Services (SQS)  launchedin 2004
+   * Simple Queue Services (SQS)  launched in 2004
    * Simple Storage Services (S3) launched in 2006
    * Elastic Compute cloud (EC2) launched in August 2006 
 
@@ -67,7 +67,7 @@
      * Managed by VMS runnning managed Containers
      * Serveless computer
      * pay for the time the code is running
-     * COld Starts is  side effect
+     * Cold Starts is  side effect
 
    
 
@@ -299,7 +299,7 @@ Phyisical or geographyical location of where an organization or cloud resources 
 
 **What is compliance boundary?** = > a regulatory compliance by the organization that describes where data resides. 
 
-**What Data Sovereignty?** => legal authority tha can be asserted over data because it is pyhical location is within jurisdictional boundaries. 
+**What Data Sovereignty?** => legal authority that can be asserted over data because it is physical location is within jurisdictional boundaries. 
 
 
 
