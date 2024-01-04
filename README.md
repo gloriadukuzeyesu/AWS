@@ -1,8 +1,7 @@
 # AWS_Certified Cloud Practitioner
 
 
-## RoadMap
-
+## RoadMap to get AWS certified
 
 
 ![](AWS_screenShots/certificatesRoutes.png)
